@@ -1,0 +1,27 @@
+.box {
+    height: 500px;
+    width: 400px;
+    background-color: rgba(1, 100, 117, 0.593);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.linkdiv {
+    color: white;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.menuOption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    font-size: 25px;
+}

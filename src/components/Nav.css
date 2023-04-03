@@ -1,0 +1,35 @@
+.navDisplay {
+    margin-top: 30px;
+    color: white;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.siteName {
+    color: white;
+    font-size: 30px;
+    margin-left: 10%;
+}
+
+.userInfo {
+    color: grey;
+    font-size: 20px;
+    margin-left: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.picture {
+    height: 60px;
+    width: 60px;
+    margin-left: 20px;
+    border-radius: 40px;
+}
+
+.imageFormater {
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+}
