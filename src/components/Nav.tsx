@@ -8,17 +8,27 @@ export default function Nav() {
 
         <main className="navDisplay">
 
-            <div className="siteName">
-                Squiggly
+            <div className="sitename">
+                <h1>
+                    Squiggly
+                </h1>
+            </div>
+            <div className="links">
+                <a className="link" href="/">Home</a>
+                <a  className="link" href="/profile">Profile</a>
+                <a className="link" href="/messages">Messages</a>
             </div>
             <div className="userInfo">
-                <div className="userName">
+                <h3 className="username">
                     Shiven Gaddam
+                </h3>
+                <div className="pictureframe">
+                    <img className="pictureformater" src="../images/myself.jpg" alt="" />
                 </div>
-                <div className="picture">
-                    <img className="imageFormater" src="../images/myself.jpg" alt="" />
-                </div>
+                
             </div>
+
+          
         </main>
 
 

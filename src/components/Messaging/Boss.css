@@ -1,0 +1,83 @@
+.spacerB {
+    width: 100%;
+    height: 200px;
+}
+
+.conversationMe {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: right;
+    color: black;
+    text-align: right;
+
+
+}
+
+.conversationthem {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: left;
+    color: black;
+    text-align: left;
+
+
+}
+
+.me {
+    height: 100px;
+    width: 30%;
+    background-color: rgba(179, 27, 255, 0.576);
+    margin-right: 30px;
+    border-radius: 30px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+
+}
+
+.myConvo {
+    padding-right: 50px;
+}
+
+.myMessage {
+    padding-right: 20px;
+}
+
+.theirText {
+    padding-left: 20px;
+}
+
+
+.them {
+    height: 100px;
+    width: 30%;
+    background-color: rgba(179, 27, 255, 0.792);
+    margin-left: 30px;
+    border-radius: 30px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+
+}
+
+.theirName {
+    padding-left: 50px;
+}
+
+.typing {
+    width: 90%;
+    height: 50px;
+    background-color: blueviolet;
+    margin-top: 100px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.centerthediv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+}

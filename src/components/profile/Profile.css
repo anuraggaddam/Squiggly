@@ -1,0 +1,30 @@
+.social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    position:relative
+
+}
+.profileHome{
+    margin-top: 30px;
+}
+
+.centerer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.post{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.myLink{
+    text-decoration: none;
+    color:blue;
+}

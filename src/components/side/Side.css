@@ -1,27 +1,63 @@
 .box {
+    width: 100%;
     height: 500px;
     width: 400px;
     background-color: rgba(1, 100, 117, 0.593);
     border-radius: 30px;
+}
+
+
+
+.postpic{
+    background-color: aqua;
+    height:250px;
+    width: 400px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.postname{
+    width: 100%;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    margin-top: 20px;
+    font-size: 30px;
+    color:white;
 }
 
-.linkdiv {
-    color: white;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-
-
+.postdescript{
+    
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+    color:white;
 }
 
-.menuOption {
+.postFormat{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+
+.navigationButtons{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin: 30px;
-    font-size: 25px;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.hearty{
+    padding-left: 20px;
+    transition-duration: .5s;
+}
+.shary{
+    padding-right: 20px;
+}
+.hearty:hover{
+    scale: 1.2;
 }
