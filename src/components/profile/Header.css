@@ -90,3 +90,18 @@
 .info{
     margin-bottom: 20px;
 }
+
+@media all and (max-width: 480px){
+    .HeaderBox {
+        width: 340px;
+        height: 500px;
+        background-color: rgb(123, 123, 252);
+        border-radius: 40px;
+    }
+    .background{
+        width: 340px;
+    }
+    .test{
+        width: 90%;
+    }
+}

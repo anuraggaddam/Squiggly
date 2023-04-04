@@ -38,3 +38,12 @@
     cursor: pointer;
     background-color: rgba(141, 50, 246, 0.199);
 }
+
+@media all and (max-width:480px){
+    .contacts {
+   
+        margin-left: 0%
+    
+    }
+}
+

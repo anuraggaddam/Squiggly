@@ -28,3 +28,13 @@
     text-decoration: none;
     color:blue;
 }
+
+@media all and (min-width: 480px){
+    .social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   
+
+}

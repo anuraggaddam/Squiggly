@@ -14,11 +14,25 @@
     padding-bottom: 40px;
 }
 
-.options{
+.options {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
     font-size: 20px;
 
+}
+
+
+@media all and (max-width: 480px) {
+    .container {
+        display: none;
+    }
+}
+
+@media (min-width: 760px) and (max-width:1279px) {
+
+    .container {
+        display: none;
+    }
 }

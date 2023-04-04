@@ -61,3 +61,15 @@
 .hearty:hover{
     scale: 1.2;
 }
+
+@media  (max-width: 480px){
+    .box{
+        scale: .8;
+        width: 350px;
+    }
+    .postpic{
+        width: 350px;
+    }
+
+
+}

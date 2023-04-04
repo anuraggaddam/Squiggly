@@ -73,11 +73,305 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  
+
 }
-.centerthediv{
+
+.centerthediv {
     display: flex;
     justify-content: center;
     align-items: center;
-    color:black;
+    color: black;
+}
+
+@media all and (max-width:480px) {
+    .them {
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+        margin-left: 0;
+    }
+
+    .typing {
+        margin-top: -5px;
+        height: 30px;
+    }
+
+    .me {
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+        margin-right: 0;
+    }
+
+    .myConvo {
+        display: none;
+    }
+
+    .theirName {
+        display: none;
+    }
+
+}
+
+@media (min-width: 760px) and (max-width:819px) {
+
+    .typing {
+        margin-top: 250px;
+    }
+
+    .me {
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+        margin-right: 0;
+        margin-top: 250px;
+    }
+
+    .them {
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+        margin-left: 0;
+        margin-top: 250px;
+    }
+
+    .myConvo {
+        display: none;
+    }
+
+    .theirName {
+        display: none;
+
+    }
+
+}
+
+@media (min-width: 820px) and (max-width:911px) {
+
+    .typing {
+        margin-top: 350px;
+    }
+
+    .me {
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+        margin-right: 0;
+        margin-top: 350px;
+    }
+
+    .them {
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+        margin-left: 0;
+        margin-top: 350px;
+    }
+
+    .myConvo {
+        display: none;
+    }
+
+    .theirName {
+        display: none;
+
+    }
+
+}
+
+
+
+@media (min-width: 912px) and (max-width:1023px) {
+
+    .typing {
+        margin-top: 500px;
+    }
+
+    .me {
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+        margin-right: 0;
+        margin-top: 500px;
+    }
+
+    .them {
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+        margin-left: 0;
+        margin-top: 500px;
+    }
+
+    .myConvo {
+        display: none;
+    }
+
+    .theirName {
+        display: none;
+
+    }
+
+}
+
+
+@media (min-width: 1024px) and (max-width:1279px) {
+
+    .typing {
+        margin-top: -150px;
+    }
+
+    .me {
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+        margin-right: 0;
+        margin-top: -100px;
+    }
+
+    .them {
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+        margin-left: 0;
+        margin-top: -100px;
+    }
+
+    .myConvo {
+        display: none;
+    }
+
+    .theirName {
+        display: none;
+
+    }
+
+}
+
+@media (min-width:390px) and (max-width:412px) {
+    .typing {
+        margin-top: 130px;
+    }
+
+    .me {
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+        margin-right: 0;
+        margin-top: 150px;
+    }
+
+    .them {
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+        margin-left: 0;
+        margin-top: 150px;
+    }
+
+    .myConvo {
+        display: none;
+    }
+
+    .theirName {
+        display: none;
+
+    }
+}
+
+
+
+@media (min-width:412px) and (max-width:480px) {
+    .typing {
+        margin-top: 180px;
+    }
+
+    .me {
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+        margin-right: 0;
+        margin-top: 180px;
+    }
+
+    .them {
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+        margin-left: 0;
+        margin-top: 180px;
+    }
+
+    .myConvo {
+        display: none;
+    }
+
+    .theirName {
+        display: none;
+
+    }
+}
+
+
+@media (min-width:360px) and (max-width:373px) {
+    .typing {
+        margin-top: 50px;
+    }
+
+    .me {
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+        margin-right: 0;
+        margin-top: 50px;
+    }
+
+    .them {
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+        margin-left: 0;
+        margin-top: 50px;
+    }
+
+    .myConvo {
+        display: none;
+    }
+
+    .theirName {
+        display: none;
+
+    }
+}
+
+
+@media (min-width:1280px) and (max-width:1400px) {
+    .typing {
+        margin-top: 80px;
+    }
+
+    .me {
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+        margin-right: 0;
+        margin-top: 80px;
+    }
+
+    .them {
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+        margin-left: 0;
+        margin-top: 80px;
+    }
+
+    .myConvo {
+        display: none;
+    }
+
+    .theirName {
+        display: none;
+
+    }
 }

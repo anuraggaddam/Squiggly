@@ -4,7 +4,14 @@ import { FaCommentAlt } from 'react-icons/fa'
 import { RiShareForwardFill } from 'react-icons/ri'
 import React, { useEffect, useState } from "react"
 
-export default function Side(props) {
+
+    interface CardDetail{
+        photo: string,
+        description: string,
+        name: string,
+    }
+
+export default function Side(props:CardDetail) {
 
     const [liked, setLike] = useState (false)
 
