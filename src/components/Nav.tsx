@@ -16,7 +16,7 @@ export default function Nav() {
             <div className="links">
                 <a className="link" href="/">Home</a>
                 <a  className="link" href="/profile">Profile</a>
-                <a className="link" href="/messages">Messages</a>
+              
             </div>
             <div className="userInfo">
                 <h3 className="username">
